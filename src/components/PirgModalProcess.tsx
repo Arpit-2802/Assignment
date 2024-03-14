@@ -69,11 +69,6 @@ const cardTemp: Card[] = [
 ];
 
 const PirgModalProcess = () => {
-  // const handleDelete = (person: IDynamicPerson) => () => {
-  //   console.log('Deleted');
-  //   setName((name) => name.filter((n) => n !== person));
-  // };
-
   const ITEM_HEIGHT = 48;
   const ITEM_PADDING_TOP = 8;
   const MenuProps = {
@@ -134,7 +129,6 @@ const PirgModalProcess = () => {
           </FormControl>
         </div>
       </Box>
-
       <Grid
         container
         spacing={1}
